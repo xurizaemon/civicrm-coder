@@ -49,6 +49,8 @@
  <rule ref="Drupal.Commenting.FunctionComment.ThrowsComment"><severity>0</severity></rule>
  <rule ref="Drupal.Commenting.FunctionComment.TypeHintMissing"><severity>0</severity></rule>
  <rule ref="Drupal.Commenting.FunctionComment.VoidReturn"><severity>0</severity></rule>
+ <rule ref="Drupal.Commenting.HookComment.HookParamDoc"><severity>0</severity></rule>
+ <rule ref="Drupal.Commenting.HookComment.HookReturnDoc"><severity>0</severity></rule>
  <rule ref="Drupal.Commenting.InlineComment.DocBlock"><severity>0</severity></rule>
  <rule ref="Drupal.Commenting.InlineComment.InvalidEndChar"><severity>0</severity></rule>
  <rule ref="Drupal.Commenting.InlineComment.NoSpaceBefore"><severity>0</severity></rule>
