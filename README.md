@@ -41,11 +41,15 @@ to your $PATH variable in ~/.profile, ~/.bashrc or ~/.zshrc:
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 ```
 
-Register the Drupal and DrupalPractice Standard with PHPCS:
+Register the CiviCRM Coder Standard with PHPCS:
 ```
-phpcs --config-set installed_paths ~/.composer/vendor/drupal/coder/coder_sniffer,~/.composer/vendor/civicrm/coder/coder_sniffer
+phpcs --config-set installed_paths ~/.composer/vendor/civicrm/civicrm-coder/coder_sniffer
 ```
 
+Or if you want both Drupal and CiviCRM standards, you might need to expand the tildes when providing both, eg:
+```
+phpcs --config-set installed_paths /home/chris/.composer/vendor/drupal/coder/coder_sniffer,/home/chris/.composer/vendor/civicrm/civicrm-coder/coder_sniffer
+```
 
 ## Usage
 
