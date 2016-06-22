@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_Semantics_InstallHooksSniff
+ * CiviCRM_Sniffs_Semantics_InstallHooksSniff
  *
  * PHP version 5
  *
@@ -17,7 +17,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Semantics_InstallHooksSniff extends Drupal_Sniffs_Semantics_FunctionDefinition
+class CiviCRM_Sniffs_Semantics_InstallHooksSniff extends CiviCRM_Sniffs_Semantics_FunctionDefinition
 {
 
 

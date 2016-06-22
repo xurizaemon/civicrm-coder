@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_NamingConventions_ValidFunctionNameSniff.
+ * CiviCRM_Sniffs_NamingConventions_ValidFunctionNameSniff.
  *
  * PHP version 5
  *
@@ -10,7 +10,7 @@
  */
 
 /**
- * Drupal_Sniffs_NamingConventions_ValidFunctionNameSniff.
+ * CiviCRM_Sniffs_NamingConventions_ValidFunctionNameSniff.
  *
  * Extends Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff to also check
  * global function names outside the scope of classes and to not allow methods
@@ -20,7 +20,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_NamingConventions_ValidFunctionNameSniff extends Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff
+class CiviCRM_Sniffs_NamingConventions_ValidFunctionNameSniff extends Generic_Sniffs_NamingConventions_CamelCapsFunctionNameSniff
 {
 
 

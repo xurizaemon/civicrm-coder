@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_Semantics_FunctionAliasSniff
+ * CiviCRM_Sniffs_Semantics_FunctionAliasSniff
  *
  * PHP version 5
  *
@@ -16,7 +16,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Semantics_FunctionAliasSniff extends Drupal_Sniffs_Semantics_FunctionCall
+class CiviCRM_Sniffs_Semantics_FunctionAliasSniff extends CiviCRM_Sniffs_Semantics_FunctionCall
 {
 
     /**

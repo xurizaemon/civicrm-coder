@@ -16,7 +16,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_ControlStructures_ElseIfSniff implements PHP_CodeSniffer_Sniff
+class CiviCRM_Sniffs_ControlStructures_ElseIfSniff implements PHP_CodeSniffer_Sniff
 {
 
 

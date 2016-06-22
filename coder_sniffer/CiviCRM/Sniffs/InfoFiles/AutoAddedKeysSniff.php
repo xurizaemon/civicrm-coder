@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_InfoFiles_RequiredSniff.
+ * CiviCRM_Sniffs_InfoFiles_RequiredSniff.
  *
  * PHP version 5
  *
@@ -17,7 +17,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_InfoFiles_AutoAddedKeysSniff implements PHP_CodeSniffer_Sniff
+class CiviCRM_Sniffs_InfoFiles_AutoAddedKeysSniff implements PHP_CodeSniffer_Sniff
 {
 
 
@@ -48,11 +48,11 @@ class Drupal_Sniffs_InfoFiles_AutoAddedKeysSniff implements PHP_CodeSniffer_Snif
         $end = (count($phpcsFile->getTokens()) + 1);
 
         if (preg_match('/\.info$/', $phpcsFile->getFilename()) === 1) {
-            // Drupal 7 style info file.
+            // CiviCRM 7 style info file.
             $contents = file_get_contents($phpcsFile->getFilename());
-            $info     = Drupal_Sniffs_InfoFiles_ClassFilesSniff::drupalParseInfoFormat($contents);
+            $info     = CiviCRM_Sniffs_InfoFiles_ClassFilesSniff::drupalParseInfoFormat($contents);
         } else if (preg_match('/\.info\.yml$/', $phpcsFile->getFilename()) === 1) {
-            // Drupal 8 style info.yml file.
+            // CiviCRM 8 style info.yml file.
             $contents = file_get_contents($phpcsFile->getFilename());
             try {
                 // Installations via Composer: make sure that we autoload the YAML

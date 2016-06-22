@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_InfoFiles_ClassFilesSniff.
+ * CiviCRM_Sniffs_InfoFiles_ClassFilesSniff.
  *
  * PHP version 5
  *
@@ -17,7 +17,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_InfoFiles_ClassFilesSniff implements PHP_CodeSniffer_Sniff
+class CiviCRM_Sniffs_InfoFiles_ClassFilesSniff implements PHP_CodeSniffer_Sniff
 {
 
 
@@ -112,7 +112,7 @@ class Drupal_Sniffs_InfoFiles_ClassFilesSniff implements PHP_CodeSniffer_Sniff
 
 
     /**
-     * Parses a Drupal info file. Copied from Drupal core drupal_parse_info_format().
+     * Parses a CiviCRM info file. Copied from CiviCRM core drupal_parse_info_format().
      *
      * @param string $data The contents of the info file to parse
      *

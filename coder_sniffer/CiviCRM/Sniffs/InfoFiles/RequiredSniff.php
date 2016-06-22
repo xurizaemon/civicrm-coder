@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_InfoFiles_RequiredSniff.
+ * CiviCRM_Sniffs_InfoFiles_RequiredSniff.
  *
  * PHP version 5
  *
@@ -10,14 +10,14 @@
  */
 
 /**
- * "name", "description" and "core are required fields in Drupal info files. Also
- * checks the "php" minimum requirement for Drupal 7.
+ * "name", "description" and "core are required fields in CiviCRM info files. Also
+ * checks the "php" minimum requirement for CiviCRM 7.
  *
  * @category PHP
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_InfoFiles_RequiredSniff implements PHP_CodeSniffer_Sniff
+class CiviCRM_Sniffs_InfoFiles_RequiredSniff implements PHP_CodeSniffer_Sniff
 {
 
 
@@ -55,7 +55,7 @@ class Drupal_Sniffs_InfoFiles_RequiredSniff implements PHP_CodeSniffer_Sniff
         $tokens = $phpcsFile->getTokens();
 
         $contents = file_get_contents($phpcsFile->getFilename());
-        $info     = Drupal_Sniffs_InfoFiles_ClassFilesSniff::drupalParseInfoFormat($contents);
+        $info     = CiviCRM_Sniffs_InfoFiles_ClassFilesSniff::drupalParseInfoFormat($contents);
         if (isset($info['name']) === false) {
             $error = '"name" property is missing in the info file';
             $phpcsFile->addError($error, $stackPtr, 'Name');
@@ -72,8 +72,8 @@ class Drupal_Sniffs_InfoFiles_RequiredSniff implements PHP_CodeSniffer_Sniff
         } else if ($info['core'] === '7.x' && isset($info['php']) === true
             && $info['php'] <= '5.2'
         ) {
-            $error = 'Drupal 7 core already requires PHP 5.2';
-            $ptr   = Drupal_Sniffs_InfoFiles_ClassFilesSniff::getPtr('php', $info['php'], $phpcsFile);
+            $error = 'CiviCRM 7 core already requires PHP 5.2';
+            $ptr   = CiviCRM_Sniffs_InfoFiles_ClassFilesSniff::getPtr('php', $info['php'], $phpcsFile);
             $phpcsFile->addError($error, $ptr, 'D7PHPVersion');
         }
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_Files_EndFileNewlineSniff.
+ * CiviCRM_Sniffs_Files_EndFileNewlineSniff.
  *
  * PHP version 5
  *
@@ -19,7 +19,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Files_EndFileNewlineSniff implements PHP_CodeSniffer_Sniff
+class CiviCRM_Sniffs_Files_EndFileNewlineSniff implements PHP_CodeSniffer_Sniff
 {
 
 

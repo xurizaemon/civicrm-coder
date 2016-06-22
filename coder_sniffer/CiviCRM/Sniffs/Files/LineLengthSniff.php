@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_Files_LineLengthSniff.
+ * CiviCRM_Sniffs_Files_LineLengthSniff.
  *
  * PHP version 5
  *
@@ -17,7 +17,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Files_LineLengthSniff extends Generic_Sniffs_Files_LineLengthSniff
+class CiviCRM_Sniffs_Files_LineLengthSniff extends Generic_Sniffs_Files_LineLengthSniff
 {
 
     /**
@@ -77,7 +77,7 @@ class Drupal_Sniffs_Files_LineLengthSniff extends Generic_Sniffs_Files_LineLengt
                 }
             }
 
-            // Drupal 8 annotations can have long translatable descriptions and we
+            // CiviCRM 8 annotations can have long translatable descriptions and we
             // allow them to exceed 80 characters.
             if ($tokens[($stackPtr - 2)]['code'] === T_DOC_COMMENT_STRING
                 && (strpos($tokens[($stackPtr - 2)]['content'], '@Translation(') !== false
@@ -87,7 +87,7 @@ class Drupal_Sniffs_Files_LineLengthSniff extends Generic_Sniffs_Files_LineLengt
                 // Allow long "Contains ..." comments in @file doc blocks.
                 || preg_match('/^Contains [a-zA-Z_\\\\.]+$/', $tokens[($stackPtr - 2)]['content']) === 1
                 // Allow long paths or namespaces in annotations such as
-                // "list_builder" = "Drupal\rules\Entity\Controller\RulesReactionListBuilder",
+                // "list_builder" = "CiviCRM\rules\Entity\Controller\RulesReactionListBuilder",
                 || preg_match('#= ("|\')\S+[\\\\/]\S+("|\'),*$#', $tokens[($stackPtr - 2)]['content']) === 1)
             ) {
                 return;

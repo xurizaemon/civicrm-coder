@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_Semantics_FunctionTSniff
+ * CiviCRM_Sniffs_Semantics_FunctionTSniff
  *
  * PHP version 5
  *
@@ -17,11 +17,11 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Semantics_FunctionTSniff extends Drupal_Sniffs_Semantics_FunctionCall
+class CiviCRM_Sniffs_Semantics_FunctionTSniff extends CiviCRM_Sniffs_Semantics_FunctionCall
 {
 
     /**
-     * We also want to catch $this->t() calls in Drupal 8.
+     * We also want to catch $this->t() calls in CiviCRM 8.
      *
      * @var bool
      */

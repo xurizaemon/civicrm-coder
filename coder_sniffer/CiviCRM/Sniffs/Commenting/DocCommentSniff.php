@@ -12,14 +12,14 @@
 /**
  * Ensures doc blocks follow basic formatting.
  *
- * Largely copied from Generic_Sniffs_Commenting_DocCommentSniff, but Drupal @file
+ * Largely copied from Generic_Sniffs_Commenting_DocCommentSniff, but CiviCRM @file
  * comments are different.
  *
  * @category PHP
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Commenting_DocCommentSniff implements PHP_CodeSniffer_Sniff
+class CiviCRM_Sniffs_Commenting_DocCommentSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_InfoFiles_DuplicateEntrySniff.
+ * CiviCRM_Sniffs_InfoFiles_DuplicateEntrySniff.
  *
  * PHP version 5
  *
@@ -16,7 +16,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_InfoFiles_DuplicateEntrySniff implements PHP_CodeSniffer_Sniff
+class CiviCRM_Sniffs_InfoFiles_DuplicateEntrySniff implements PHP_CodeSniffer_Sniff
 {
 
 
@@ -66,7 +66,7 @@ class Drupal_Sniffs_InfoFiles_DuplicateEntrySniff implements PHP_CodeSniffer_Sni
 
 
     /**
-     * Parses a Drupal info file and checsk if a key apperas more than once.
+     * Parses a CiviCRM info file and checsk if a key apperas more than once.
      *
      * @param string $data The contents of the info file to parse
      *

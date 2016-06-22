@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_Files_FileEncodingSniff.
+ * CiviCRM_Sniffs_Files_FileEncodingSniff.
  *
  * PHP version 5
  *
@@ -13,7 +13,7 @@
  */
 
 /**
- * Drupal_Sniffs_Files_FileEncodingSniff.
+ * CiviCRM_Sniffs_Files_FileEncodingSniff.
  *
  * Validates the encoding of a file against a white list of allowed encodings.
  *
@@ -25,7 +25,7 @@
  * @version   Release: @package_version@
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Files_FileEncodingSniff implements PHP_CodeSniffer_Sniff
+class CiviCRM_Sniffs_Files_FileEncodingSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

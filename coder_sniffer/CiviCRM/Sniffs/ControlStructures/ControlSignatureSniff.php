@@ -13,13 +13,13 @@
  * Verifies that control statements conform to their coding standards.
  *
  * Largely copied from Squiz_Sniffs_ControlStructures_ControlSignatureSniff and
- * adapted for Drupal's else on new lines.
+ * adapted for CiviCRM's else on new lines.
  *
  * @category PHP
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_ControlStructures_ControlSignatureSniff implements PHP_CodeSniffer_Sniff
+class CiviCRM_Sniffs_ControlStructures_ControlSignatureSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

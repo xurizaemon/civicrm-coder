@@ -18,7 +18,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Classes_ClassCreateInstanceSniff implements PHP_CodeSniffer_Sniff
+class CiviCRM_Sniffs_Classes_ClassCreateInstanceSniff implements PHP_CodeSniffer_Sniff
 {
 
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * PHP_CodeSniffer_Sniffs_Drupal_Commenting_InlineCommentSniff.
+ * PHP_CodeSniffer_Sniffs_CiviCRM_Commenting_InlineCommentSniff.
  *
  * PHP version 5
  *
@@ -10,7 +10,7 @@
  */
 
 /**
- * PHP_CodeSniffer_Sniffs_Drupal_Commenting_InlineCommentSniff.
+ * PHP_CodeSniffer_Sniffs_CiviCRM_Commenting_InlineCommentSniff.
  *
  * Checks that no perl-style comments are used. Checks that inline comments ("//")
  * have a space after //, start capitalized and end with proper punctuation.
@@ -20,7 +20,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Commenting_InlineCommentSniff implements PHP_CodeSniffer_Sniff
+class CiviCRM_Sniffs_Commenting_InlineCommentSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

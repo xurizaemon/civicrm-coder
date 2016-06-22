@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_Semantics_EmptyInstallSniff.
+ * CiviCRM_Sniffs_Semantics_EmptyInstallSniff.
  *
  * PHP version 5
  *
@@ -16,7 +16,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Semantics_EmptyInstallSniff extends Drupal_Sniffs_Semantics_FunctionDefinition
+class CiviCRM_Sniffs_Semantics_EmptyInstallSniff extends CiviCRM_Sniffs_Semantics_FunctionDefinition
 {
 
 

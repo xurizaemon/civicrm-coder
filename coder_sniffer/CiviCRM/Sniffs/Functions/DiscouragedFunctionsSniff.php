@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_Functions_DiscouragedFunctionsSniff.
+ * CiviCRM_Sniffs_Functions_DiscouragedFunctionsSniff.
  *
  * PHP version 5
  *
@@ -16,7 +16,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Functions_DiscouragedFunctionsSniff extends Generic_Sniffs_PHP_ForbiddenFunctionsSniff
+class CiviCRM_Sniffs_Functions_DiscouragedFunctionsSniff extends Generic_Sniffs_PHP_ForbiddenFunctionsSniff
 {
 
     /**

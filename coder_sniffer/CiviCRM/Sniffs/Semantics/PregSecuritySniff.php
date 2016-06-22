@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_Semantics_PregSecuritySniff.
+ * CiviCRM_Sniffs_Semantics_PregSecuritySniff.
  *
  * PHP version 5
  *
@@ -17,7 +17,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Semantics_PregSecuritySniff extends Drupal_Sniffs_Semantics_FunctionCall
+class CiviCRM_Sniffs_Semantics_PregSecuritySniff extends CiviCRM_Sniffs_Semantics_FunctionCall
 {
 
 

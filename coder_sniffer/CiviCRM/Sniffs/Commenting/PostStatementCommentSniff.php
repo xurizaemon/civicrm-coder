@@ -1,6 +1,6 @@
 <?php
 /**
- * Drupal_Sniffs_Commenting_PostStatementCommentSniff.
+ * CiviCRM_Sniffs_Commenting_PostStatementCommentSniff.
  *
  * @category PHP
  * @package  PHP_CodeSniffer
@@ -15,7 +15,7 @@
  * @package  PHP_CodeSniffer
  * @link     http://pear.php.net/package/PHP_CodeSniffer
  */
-class Drupal_Sniffs_Commenting_PostStatementCommentSniff implements PHP_CodeSniffer_Sniff
+class CiviCRM_Sniffs_Commenting_PostStatementCommentSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**
