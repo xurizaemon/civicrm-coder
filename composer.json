@@ -1,11 +1,11 @@
 {
-    "name": "drupal/coder",
+    "name": "civicrm/civicrm-coder",
     "type": "library",
-    "description": "Coder is a library to review Drupal code.",
-    "homepage": "https://www.drupal.org/project/coder",
+    "description": "CiviCRM Coder is a library to review CiviCRM code.",
+    "homepage": "https://github.com/civicrm/coder",
     "support": {
-        "issues": "https://www.drupal.org/project/issues/coder",
-        "source": "https://www.drupal.org/project/coder"
+        "issues": "https://github.com/civicrm/coder",
+        "source": "https://github.com/civicrm/coder"
     },
     "keywords": ["phpcs", "standards", "code review"],
     "license": "GPL-2.0+",
