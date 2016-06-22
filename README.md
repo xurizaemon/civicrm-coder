@@ -19,13 +19,20 @@ First, make sure Composer is installed correctly:
 which composer
 ```
 
-If you get composer not found or similar, follow Composer's installation
-instructions.
-
-Install Coder (8.x-2.x) in your global Composer directory in your home directory
-(~/.composer):
+Until CiviCRM Coder is listed in Packagist, you may need to manually add it to
+your `~/.composer/composer.json` with something like this:
 ```
-composer global require drupal/coder
+{
+    "require": {
+        "civicrm/civicrm-coder": "2015-01-19"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/xurizaemon/civicrm-coder.git"
+        }
+    ]
+}
 ```
 
 To make the phpcs and phpcbf commands available globally, add the composer bin path
@@ -36,7 +43,7 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 Register the Drupal and DrupalPractice Standard with PHPCS:
 ```
-phpcs --config-set installed_paths ~/.composer/vendor/drupal/coder/coder_sniffer
+phpcs --config-set installed_paths ~/.composer/vendor/drupal/coder/coder_sniffer,~/.composer/vendor/civicrm/coder/coder_sniffer
 ```
 
 
